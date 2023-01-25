@@ -56,6 +56,12 @@ brew upgrade --cask
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
+### List de formules générales utiles
+```bash
+brew install nano
+brew install php
+```
+
 ### Liste des cask
 ``` bash
 # brew install --cask alfred
@@ -84,10 +90,8 @@ brew install --cask microsoft-auto-update
 brew install --cask microsoft-teams
 # brew install --cask middleclick
 # brew install --cask multi
-brew install nano
 brew install --cask nextcloud
 # brew install --cask onyx
-# brew install openvpn
 # brew install --cask openvpn-connect
 # brew install --cask oracle-jdk
 brew install --cask qgis
