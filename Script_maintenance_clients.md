@@ -136,6 +136,11 @@ sudo softwareupdate -v -i -a
 softwareupdate -d NAME
 ```
 
+- Outils de développement/Command Line Tools
+``` bash
+sudo xcode-select --install
+```
+
 # R
 ## Installation des packages
 ``` R
