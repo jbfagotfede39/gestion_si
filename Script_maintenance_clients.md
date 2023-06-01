@@ -59,6 +59,7 @@ brew upgrade quarto # Upgrade d'une seule application
 
 ### List de formules générales utiles
 ```bash
+brew install broot
 brew install nano
 brew install php
 ```
