@@ -112,6 +112,8 @@ brew install --cask vlc
 # brew install --cask macfuse # Dans cet ordre 1/3
 # brew install borgbackup/tap/borgbackup-fuse # Dans cet ordre 2/3
 # brew install --cask vorta # Dans cet ordre 3/3
+# brew install --cask wireshark
+# brew install --cask wireshark-chmodbpf
 brew install --cask xquartz
 brew install --cask zoom
 # brew install --cask zotero
