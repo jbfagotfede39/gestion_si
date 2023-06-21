@@ -154,7 +154,7 @@ devtools::install_github("jbfagotfede39/afd39")
 devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
 # devtools::install_github("jbfagotfede39/aquatools")
 # devtools::install_github("jbfagotfede39/aquatools", upgrade = "never")
-install.packages(c('ade4', 'akima', 'archive', 'attachment', 'bib2df', 'clisymbols', 'colourpicker', 'corrr', 'cronR', 'DT', 'dygraphs', 'flextable', 'ggmap', 'ggplotify', 'ggrepel', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hrbrthemes', 'janitor', 'kableExtra', 'logr', 'markdown', 'osmdata', 'palmerpenguins', 'pander', 'pgirmess', 'qrcode', 'readODS', 'recipes', 'RCurl', 'renv', 'reticulate', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinydashboard', 'shinyFiles', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'vegan', 'viridis'))
+install.packages(c('ade4', 'akima', 'archive', 'attachment', 'bib2df', 'clisymbols', 'colourpicker', 'corrr', 'cronR', 'DT', 'dygraphs', 'flextable', 'ggmap', 'ggplotify', 'ggrepel', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hrbrthemes', 'janitor', 'kableExtra', 'leaflet', 'logr', 'markdown', 'osmdata', 'palmerpenguins', 'pander', 'pgirmess', 'qrcode', 'readODS', 'recipes', 'RCurl', 'renv', 'reticulate', 'rosm', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinydashboard', 'shinyFiles', 'shinyjs', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'vegan', 'viridis'))
 ```
 
 ## Test de fonctionnement
