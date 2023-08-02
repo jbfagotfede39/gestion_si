@@ -173,5 +173,5 @@ python3 get-pip.py
 
 - Installation de packages
 ```
-pip install pandas
+pip3 install pandas
 ```
