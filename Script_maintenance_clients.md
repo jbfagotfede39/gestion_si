@@ -57,7 +57,7 @@ brew upgrade quarto # Upgrade d'une seule application
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
-### List de formules générales utiles
+### Liste de formules `brew` générales utiles
 ```bash
 brew install broot
 brew install nano
@@ -162,4 +162,16 @@ install.packages(c('ade4', 'akima', 'archive', 'attachment', 'bib2df', 'clisymbo
 library(afd39);library(aquatools);library(DBI);library(dbplyr);library(ggrepel);library(glue);library(lubridate);library(readxl);library(sf);library(stringr);library(tidyverse)
 dbD <- BDD.ouverture("Data")
 Stations <- sf::st_read(dbD, query = "select * from fd_production.chroniques_stations;")
+```
+
+# Python
+- Installation de PIP
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+```
+
+- Installation de packages
+```
+pip install pandas
 ```
