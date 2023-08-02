@@ -168,7 +168,7 @@ Stations <- sf::st_read(dbD, query = "select * from fd_production.chroniques_sta
 - Installation de PIP
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python get-pip.py
+python3 get-pip.py
 ```
 
 - Installation de packages
