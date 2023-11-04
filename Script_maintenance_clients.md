@@ -51,9 +51,9 @@ brew list --cask --versions > ${poste}_$(date +%Y-%m-%d_%H-%M-%S)_brew_versions.
 
 - Mise à jour des casks :
 ``` bash
-brew update && brew outdated --cask
-brew upgrade --cask
-brew upgrade quarto # Upgrade d'une seule application
+brew update && brew outdated --cask --greedy # --greedy permet d'afficher également les applications qui ont un auto-update d'inclus
+brew upgrade --cask --greedy
+brew upgrade --cask quarto # Upgrade d'une seule application
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
