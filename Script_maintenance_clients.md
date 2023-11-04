@@ -58,7 +58,7 @@ brew upgrade --cask quarto # Upgrade d'une seule application
 ```
 
 - Requête postgreSQL de nettoyage des changements de version copiés-collés depuis `Homebrew` :
-```
+```sql
 UPDATE perso_production.informatique_suivimaintenance
 SET infutil_description = REPLACE(infutil_description, ') != ', ' -> ')
 WHERE infutil_date = '2023-11-04' AND infutil_machine_id = 897;
