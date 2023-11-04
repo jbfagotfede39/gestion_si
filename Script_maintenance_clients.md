@@ -57,6 +57,13 @@ brew upgrade --cask quarto # Upgrade d'une seule application
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
+- Requête postgreSQL de nettoyage des changements de version copiés-collés depuis `Homebrew` :
+```
+UPDATE perso_production.informatique_suivimaintenance
+SET infutil_description = REPLACE(infutil_description, ') != ', ' -> ')
+WHERE infutil_date = '2023-11-04' AND infutil_machine_id = 897;
+```
+
 ### Liste de formules `brew` générales utiles
 ```bash
 brew install broot
