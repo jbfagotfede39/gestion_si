@@ -8,49 +8,49 @@
 
 # ssh
 - Générer une clé ssh :
-``` bash
+```shell
 ssh-keygen -b 4096
 ```
 - Afficher une clé ssh :
-``` bash
+```shell
 cat ~/.ssh/id_rsa.pub
 ```
 
 # Homebrew
 - Installation :
-``` bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 - Désinstallation (si nécessaire) :
-``` bash
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 ```
 
 ## Cask
 - [Liste](https://formulae.brew.sh/cask/) des casks
 - Recherche d'un cask : 
-``` bash
+```shell
 brew search rstudio
 ```
 
 - Informations sur un paquet : 
-``` bash
+```shell
 brew info zotero
 ```
 
 - Liste des casks installés :
-``` bash
+```shell
 brew list --cask --versions
 ```
 
 - Export des casks installés avec leurs versions :
-``` bash
+```shell
 export poste=129
 brew list --cask --versions > ${poste}_$(date +%Y-%m-%d_%H-%M-%S)_brew_versions.txt
 ```
 
 - Mise à jour des casks :
-``` bash
+```shell
 brew update && brew outdated --cask --greedy # --greedy permet d'afficher également les applications qui ont un auto-update d'inclus
 brew upgrade --cask --greedy
 brew upgrade --cask quarto # Upgrade d'une seule application
@@ -65,14 +65,14 @@ WHERE infutil_date = '2023-11-04' AND infutil_machine_id = 897;
 ```
 
 ### Liste de formules `brew` générales utiles
-```bash
+```shell
 brew install broot
 brew install nano
 brew install php
 ```
 
 ### Liste des cask
-``` bash
+```shell
 # brew install --cask alfred
 # brew install --cask angry-ip-scanner
 # brew install --cask anydesk
@@ -127,35 +127,41 @@ brew install --cask zoom
 ```
 
 # OSX
+- Récupération l'accès aux commandes système :
+```shell
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+```
+
 - [Aide générale](https://www.cyberciti.biz/faq/apple-mac-os-x-update-softwareupdate-bash-shell-command/)
+
 - Lister les mises à jour :
-``` bash
+```shell
 softwareupdate -l
 ```
 
 - Installer une mise à jour (le ` -v` permet d'avoir des détails au fil de l'avancement) :
-``` bash
+```shell
 softwareupdate  -v --install 'macOS High Sierra 10.13.3 Supplemental Update-'
 ```
 
 - Installer toutes les mises à jour disponibles :
-``` bash
+```shell
 sudo softwareupdate -v -i -a
 ```
 
 - Télécharger une mise à jour sans l'installer
-``` bash
+```shell
 softwareupdate -d NAME
 ```
 
 - Outils de développement/Command Line Tools
-``` bash
+```shell
 sudo xcode-select --install
 ```
 
 # R
 ## Installation des packages
-``` R
+```r
 install.packages('devtools')
 devtools::install_github("jbfagotfede39/afd39")
 devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
@@ -165,7 +171,7 @@ install.packages(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df
 ```
 
 ## Test de fonctionnement
-``` R
+```R
 library(afd39);library(aquatools);library(DBI);library(dbplyr);library(ggrepel);library(glue);library(lubridate);library(readxl);library(sf);library(stringr);library(tidyverse)
 dbD <- BDD.ouverture("Data")
 Stations <- sf::st_read(dbD, query = "select * from fd_production.chroniques_stations;")
@@ -173,12 +179,12 @@ Stations <- sf::st_read(dbD, query = "select * from fd_production.chroniques_sta
 
 # Python
 - Installation de PIP
-```
+```shell
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 ```
 
 - Installation de packages
-```
+```shell
 pip3 install pandas
 ```
