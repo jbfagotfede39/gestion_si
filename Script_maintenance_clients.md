@@ -206,8 +206,8 @@ install.packages(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df
 ## Configuration connexion base de données
 - Éventuelles mise à jour de la fonction `BDD.ouverture`
 ```R
-keyring::key_set("Multifish", "JB")
-keyring::key_set("eaux-jura-sig-data", "JB")
+keyring::key_set("Multifish", "user")
+keyring::key_set("eaux-jura-sig-data", "user")
 ```
 
 ## Test de fonctionnement
