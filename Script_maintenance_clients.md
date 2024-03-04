@@ -159,6 +159,33 @@ softwareupdate -d NAME
 sudo xcode-select --install
 ```
 
+## Dock
+```shell
+brew install dockutil
+dockutil --add /Applications/RStudio.app --after 'Calendrier' --allhomes
+dockutil --add /Applications/DBeaver.app --after 'RStudio' --allhomes
+dockutil --add /Applications/QGIS.app --after 'DBeaver' --allhomes
+dockutil --add /Applications/Zotero.app --after 'QGIS' --allhomes
+dockutil --add /Applications/Multifish.app --after 'QGIS' --allhomes
+dockutil --remove 'Launchpad'
+dockutil --remove 'Messages'
+dockutil --remove 'Mail'
+dockutil --remove 'Plans'
+dockutil --remove 'Photos'
+dockutil --remove 'FaceTime'
+dockutil --remove 'Calendrier'
+dockutil --remove 'Contacts'
+dockutil --remove 'Rappels'
+dockutil --remove 'Notes'
+dockutil --remove 'Freeform'
+dockutil --remove 'TV'
+dockutil --remove 'Musique'
+dockutil --remove 'Keynote'
+dockutil --remove 'Numbers'
+dockutil --remove 'Pages'
+dockutil --remove 'App Store'
+```
+
 # R
 ## Installation des packages
 ```r
