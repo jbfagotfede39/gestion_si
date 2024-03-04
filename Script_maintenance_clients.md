@@ -160,7 +160,7 @@ sudo xcode-select --install
 ```
 
 ## Dock
-- Gestion des applications visibles
+- Gestion des applications visibles via [dockutil](https://github.com/kcrawford/dockutil)
 ```shell
 brew install dockutil
 dockutil --add /Applications/RStudio.app --after 'Calendrier' --allhomes
@@ -203,9 +203,16 @@ devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
 install.packages(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df', 'bookdown', 'checkmate', 'clisymbols', 'colourpicker', 'corrr', 'cronR', 'DT', 'dygraphs', 'emayili', 'flextable', 'ggmap', 'ggplotify', 'ggrepel', 'ggsn', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hms', 'hrbrthemes', 'htmlTable', 'janitor', 'kableExtra', 'leaflet', 'logr', 'magick', 'markdown', 'OpenStreetMap', 'osmdata', 'ows4R', 'palmerpenguins', 'pander', 'pdftools', 'pgirmess', 'qrcode', 'readODS', 'recipes', 'RCurl', 'renv', 'reticulate', 'rosm', 'roxygen2md', 'rsconnect', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinydashboard', 'shinyFiles', 'shinyjs', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'usethis', 'vegan', 'viridis'))
 ```
 
+## Configuration connexion base de données
+- Éventuelles mise à jour de la fonction `BDD.ouverture`
+```R
+keyring::key_set("Multifish", "JB")
+keyring::key_set("eaux-jura-sig-data", "JB")
+```
+
 ## Test de fonctionnement
 ```R
-library(afd39);library(aquatools);library(DBI);library(dbplyr);library(ggrepel);library(glue);library(lubridate);library(readxl);library(sf);library(stringr);library(tidyverse)
+library(afd39);library(aquatools);library(DBI);library(dbplyr);library(sf);library(tidyverse)
 dbD <- BDD.ouverture("Data")
 Stations <- sf::st_read(dbD, query = "select * from fd_production.chroniques_stations;")
 ```
