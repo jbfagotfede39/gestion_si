@@ -160,6 +160,7 @@ sudo xcode-select --install
 ```
 
 ## Dock
+- Gestion des applications visibles
 ```shell
 brew install dockutil
 dockutil --add /Applications/RStudio.app --after 'Calendrier' --allhomes
@@ -184,6 +185,11 @@ dockutil --remove 'Keynote'
 dockutil --remove 'Numbers'
 dockutil --remove 'Pages'
 dockutil --remove 'App Store'
+```
+- Désactiver les applications récemment ouvertes
+```shell
+defaults write com.apple.dock show-recents -bool FALSE
+killall Dock
 ```
 
 # R
