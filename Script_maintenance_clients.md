@@ -228,3 +228,6 @@ python3 get-pip.py
 ```shell
 pip3 install pandas
 ```
+
+# Outils génériques
+- [No Sleep](https://korben.info/empecher-veille-ordinateur-smartphone-no-sleep.html) : le site qui empêche votre ordinateur ou smartphone de passer en veille
