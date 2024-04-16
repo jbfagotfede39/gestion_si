@@ -73,9 +73,7 @@ brew install php
 
 ### Liste des cask
 ```shell
-# brew install --cask alfred
 # brew install --cask angry-ip-scanner
-# brew install --cask anydesk
 brew install --cask avast-security
 # brew install --cask balenaetcher
 # brew install --cask brave-browser
@@ -107,10 +105,10 @@ brew install --cask nextcloud
 brew install --cask qgis
 # brew install --cask quarto
 # brew install --cask r
+# brew install --cask raycast
 # brew install --cask rstudio
 # brew install --cask scribus
 brew install --cask skype
-brew install --cask teamviewer
 # brew install --cask telegram
 brew install --cask the-unarchiver
 brew install --cask vlc
@@ -127,6 +125,9 @@ brew install --cask zoom
 ```
 
 # OSX
+- Accès distant : `Réglages système` → `Général` → `Partage` → `Gestion à distance`
+- Accès distant : `Réglages système` → `Général` → `Partage` → `Session à distance`
+  
 - Récupération l'accès aux commandes système :
 ```shell
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
