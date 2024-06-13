@@ -111,6 +111,7 @@ brew install --cask qgis
 brew install --cask skype
 # brew install --cask telegram
 brew install --cask the-unarchiver
+brew install --cask todoist
 brew install --cask vlc
 # brew install --cask vnc-viewer
 # brew install --cask vscodium
