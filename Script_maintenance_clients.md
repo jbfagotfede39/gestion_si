@@ -14,6 +14,7 @@ ssh-keygen -b 4096
 - Afficher une clé ssh :
 ```shell
 cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/id_ed25519.pub
 ```
 
 # Homebrew
