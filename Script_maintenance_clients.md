@@ -106,6 +106,7 @@ brew install --cask nextcloud
 brew install --cask qgis
 # brew install --cask quarto
 # brew install --cask r
+# brew install --cask raspberry-pi-imager
 # brew install --cask raycast
 # brew install --cask rstudio
 # brew install --cask scribus
