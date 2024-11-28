@@ -80,6 +80,7 @@ brew install --cask avast-security
 # brew install --cask brave-browser
 # brew install --cask coteditor
 brew install --cask dbeaver-community
+brew install --cask deskpad
 # brew install --cask docker
 brew install --cask firefox
 brew install --cask gimp
