@@ -200,12 +200,15 @@ killall Dock
 # R
 ## Installation des packages
 ```r
-install.packages('devtools')
-devtools::install_github("jbfagotfede39/afd39")
-devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
+install.packages("pak")
+pak::pak("jbfagotfede39/afd39")
+pak::pak("strboul/caseconverter")
+# install.packages('devtools')
+# devtools::install_github("jbfagotfede39/afd39")
+# devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
 # devtools::install_github("jbfagotfede39/aquatools")
 # devtools::install_github("jbfagotfede39/aquatools", upgrade = "never")
-devtools::install_github("strboul/caseconverter")
+# devtools::install_github("strboul/caseconverter")
 install.packages(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df', 'bookdown', 'checkmate', 'clisymbols', 'colourpicker', 'corrr', 'cronR', 'DT', 'dygraphs', 'emayili', 'esquisse', 'flextable', 'ggmap', 'ggplotify', 'ggrepel', 'ggsn', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hms', 'hrbrthemes', 'htmlTable', 'janitor', 'kableExtra', 'leaflet', 'logr', 'magick', 'magick', 'mapview', 'marquee', 'OpenStreetMap', 'osmdata', 'ows4R', 'palmerpenguins', 'pander', 'pdftools', 'pgirmess', 'qrcode', 'readODS', 'recipes', 'RCurl', 'RefManageR', 'renv', 'reticulate', 'rosm', 'roxygen2md', 'rsconnect', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinydashboard', 'shinyFiles', 'shinyjs', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'usethis', 'vegan', 'viridis'))
 ```
 
