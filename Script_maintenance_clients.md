@@ -70,6 +70,8 @@ WHERE infutil_date = '2023-11-04' AND infutil_machine_id = 897;
 brew install broot
 brew install nano
 brew install php
+brew install tesseract
+brew install tesseract-lang
 ```
 
 ### Liste des cask
