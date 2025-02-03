@@ -22,6 +22,10 @@ cat ~/.ssh/id_ed25519.pub
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+- Nettoyage :
+```shell
+brew cleanup
+```
 - Désinstallation (si nécessaire) :
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
