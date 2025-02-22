@@ -48,6 +48,11 @@ brew info zotero
 brew list --cask --versions
 ```
 
+- Liste de casks à installer :
+```shell
+brew install --cask $(cat liste_a_installer.txt)
+```
+
 - Export des casks installés avec leurs versions :
 ```shell
 export poste=129
