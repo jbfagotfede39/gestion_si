@@ -122,6 +122,7 @@ brew install --cask skype
 brew install --cask the-unarchiver
 brew install --cask todoist
 brew install --cask vlc
+# brew install --cask veracrypt
 # brew install --cask vnc-viewer
 # brew install --cask vscodium
 # brew install --cask macfuse # Dans cet ordre 1/3
