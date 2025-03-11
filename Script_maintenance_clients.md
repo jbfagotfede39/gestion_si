@@ -64,6 +64,7 @@ brew list --cask --versions > ${poste}_$(date +%Y-%m-%d_%H-%M-%S)_brew_versions.
 brew update && brew outdated --cask --greedy # --greedy permet d'afficher également les applications qui ont un auto-update d'inclus
 brew upgrade --cask --greedy
 brew upgrade --cask quarto # Upgrade d'une seule application
+brew upgrade --cask quarto,rstudio # Upgrade de plusieurs applications
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
