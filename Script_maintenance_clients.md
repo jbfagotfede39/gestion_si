@@ -68,6 +68,21 @@ brew upgrade --cask quarto,rstudio # Upgrade de plusieurs applications
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
 ```
 
+- Travail en cours sur automatisation des MAJ dans 4 terminaux :
+ * Lister les MAJ à jour
+ * Diviser en 4 paquets : https://stackoverflow.com/questions/31968664/upgrade-all-the-casks-installed-via-homebrew-cask : combiner `brew cask outdated | xargs brew cask reinstall` et `brew upgrade --cask $(brew list --cask)` avec
+```
+# Exemple de liste
+list=(item1 item2 item3 item4 item5 item6 item7 item8 item9 item10 item11 item12 item13 item14)
+
+# Extraire les éléments de l'index 8 à 12
+# Notez que les indices commencent à 0, donc l'index 8 est le 9ème élément
+extracted_elements=("${list[@]:8:5}")
+
+# Afficher les éléments extraits
+echo "Éléments 8 à 12 : ${extracted_elements[@]}"
+```
+
 - Requête postgreSQL de nettoyage des changements de version copiés-collés depuis `Homebrew` :
 ```sql
 UPDATE fd_production.informatique_suivimaintenance
