@@ -70,9 +70,9 @@ brew upgrade --cask quarto,rstudio # Upgrade de plusieurs applications
 
 - Mise à jour d'une liste spécifique de casks
  ```shell
-formulas="quarto rstudio"
-for formula in $formulas; do
-    brew upgrade --cask "$formula"
+formulas=("quarto" "rstudio")
+for formula in "${formulas[@]}"; do
+    brew upgrade "$formula"
 done
 ```
 
