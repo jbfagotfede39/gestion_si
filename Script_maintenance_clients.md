@@ -59,13 +59,21 @@ export poste=129
 brew list --cask --versions > ${poste}_$(date +%Y-%m-%d_%H-%M-%S)_brew_versions.txt
 ```
 
-- Mise à jour des casks :
+- Mise à jour générale des casks :
 ```shell
 brew update && brew outdated --cask --greedy # --greedy permet d'afficher également les applications qui ont un auto-update d'inclus
 brew upgrade --cask --greedy
 brew upgrade --cask quarto # Upgrade d'une seule application
 brew upgrade --cask quarto,rstudio # Upgrade de plusieurs applications
 # brew pin postgresql # Pour figer les MAJ des brew simples, pas des cask
+```
+
+- Mise à jour d'une liste spécifique de casks
+ ```shell
+formulas="quarto rstudio"
+for formula in $formulas; do
+    brew upgrade --cask "$formula"
+done
 ```
 
 - Travail en cours sur automatisation des MAJ dans 4 terminaux :
