@@ -6,6 +6,8 @@
 -- Notes : 
  -->
 
+- Application d'aide à la maintenance informatique : [http://data.eaux-jura.com:3838/outils_informatiques/](http://data.eaux-jura.com:3838/outils_informatiques/)
+
 # ssh
 - Générer une clé ssh :
 ```shell
