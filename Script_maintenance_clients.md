@@ -46,7 +46,7 @@ choco list -l
 ## Liste générale de paquets
 ```shell
 choco install anydesk teamviewer zoom -y
-choco install firefox chrome -y
+choco install firefox googlechrome -y
 choco install libreoffice -y
 choco install nextcloud-client -y
 choco install dbeaver notepadplusplus.install tightvnc -y
