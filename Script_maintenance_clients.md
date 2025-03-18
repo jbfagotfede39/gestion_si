@@ -49,7 +49,7 @@ choco install anydesk teamviewer zoom -y
 choco install firefox googlechrome -y
 choco install libreoffice -y
 choco install nextcloud-client -y
-choco install dbeaver notepadplusplus.install tightvnc -y
+choco install dbeaver notepadplusplus.install qgis-ltr tightvnc -y
 choco install vlc.install -y
 ```
 
