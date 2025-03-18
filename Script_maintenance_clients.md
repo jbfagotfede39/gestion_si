@@ -19,6 +19,53 @@ cat ~/.ssh/id_rsa.pub
 cat ~/.ssh/id_ed25519.pub
 ```
 
+# Chocolatey
+En ouvrant le PowerShell en mode administrateur
+
+## Installation
+```shell
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+```
+## Fonctionnement général
+- Recherche d'un paquet (ou bien recherche [en ligne](https://community.chocolatey.org/packages)) : 
+```shell
+choco search --by-id-only firefox
+```
+
+- Désinstallation d'un paquet
+```shell
+choco uninstall firefox
+choco uninstall firefox virtualbox vlc
+```
+
+- Lister les paquets installés
+```shell
+choco list -l
+```
+
+## Liste générale de paquets
+```shell
+choco install firefox chrome -y
+choco install libreoffice -y
+choco install notepadplusplus.install -y
+```
+
+## Mises à jour
+- Lister les mises à jour
+```shell
+choco outdated
+```
+
+- MAJ d'un unique paquet
+```shell
+choco upgrade f.lux -y
+```
+
+- MAJ de tous les paquets
+```shell
+choco upgrade all -y
+```
+
 # Homebrew
 - Installation :
 ```shell
