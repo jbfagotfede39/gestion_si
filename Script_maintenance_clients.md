@@ -290,14 +290,13 @@ killall Dock
 ```r
 install.packages("pak")
 pak::pak("jbfagotfede39/afd39")
-pak::pak("strboul/caseconverter")
 # install.packages('devtools')
 # devtools::install_github("jbfagotfede39/afd39")
 # devtools::install_github("jbfagotfede39/afd39", upgrade = "never")
 # devtools::install_github("jbfagotfede39/aquatools")
 # devtools::install_github("jbfagotfede39/aquatools", upgrade = "never")
 # devtools::install_github("strboul/caseconverter")
-install.packages(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df', 'bookdown', 'checkmate', 'clisymbols', 'colourpicker', 'corrr', 'cronR', 'DT', 'dygraphs', 'elevatr', 'emayili', 'esquisse', 'flextable', 'ggmap', 'ggplotify', 'ggrepel', 'ggsn', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hms', 'hrbrthemes', 'htmlTable', 'janitor', 'kableExtra', 'leaflet', 'logr', 'magick', 'magick', 'mapview', 'marquee', 'metR', 'OpenStreetMap', 'osmdata', 'ows4R', 'paletteer', 'palmerpenguins', 'pander', 'pdftools', 'pgirmess', 'qrcode', 'readODS', 'recipes', 'RCurl', 'RefManageR', 'renv', 'reticulate', 'rosm', 'roxygen2md', 'rsconnect', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinydashboard', 'shinyFiles', 'shinyjs', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'usethis', 'vegan', 'viridis'))
+pak::pkg_install(c('ade4', 'akima', 'archive', 'attachment', 'basemaps', 'bib2df', 'bookdown', 'strboul/caseconverter', 'checkmate', 'clisymbols', 'colourpicker', 'corrplot', 'corrr', 'cronR', 'curl', 'dichromat', 'DT', 'dygraphs', 'ellmer', 'elevatr', 'emayili', 'eponge', 'esquisse', 'flextable', 'ggmap', 'ggplotify', 'ggpubr', 'ggrepel', 'ggsci', 'ggsn', 'ggthemes', 'gitcreds', 'gt', 'gtExtras', 'gtsummary', 'hexView', 'hms', 'hrbrthemes', 'htmlTable', 'httr2', 'janitor', 'kableExtra', 'leaflet', 'logr', 'magick', 'magick', 'mapview', 'marquee', 'metR', 'OpenStreetMap', 'openxlsx2', 'osmdata', 'ows4R', 'paletteer', 'palmerpenguins', 'pander', 'pdftools', 'pgirmess', 'plotly', 'plumber', 'qrcode', 'readODS', 'recipes', 'RCurl', 'RefManageR', 'renv', 'reticulate', 'rosm', 'roxygen2md', 'rsconnect', 'RSQLite', 'sassy', 'shiny', 'shinyauthr', 'shinybusy', 'shinydashboard', 'shinyFiles', 'shinyjs', 'shinyTime', 'styler', 'svglite', 'tidygeocoder', 'tidylog', 'tidyxl', 'usethis', 'vegan', 'viridis', 'xfun'))
 ```
 
 ## Configuration connexion base de données
