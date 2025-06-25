@@ -12,6 +12,7 @@ cbeaver,DBeaver
 dbeaver-community,DBeaver
 deskpad,DeskPad
 docker,Docker
+docker-desktop,Docker
 firefox,Firefox
 freecad,Freecad
 gimp,Gimp
@@ -44,6 +45,7 @@ postman,Postman
 qgis,QGIS
 quarto,Quarto
 r,R
+r-app,R
 raspberry-pi-imager,Raspberry Pi Imager
 raycast,Raycast
 readest,Readest
@@ -54,10 +56,12 @@ sonos,Sonos
 teamviewer,TeamViewer
 the-unarchiver,The Unarchiver
 todoist,Todoist
+todoist-app,Todoist
 veracrypt,VeraCrypt
 vlc,VLC
 vnc-viewer,VNC Viewer
 vscodium,VSCodium
 wireshark,Wireshark
+wireshark-app,Wireshark
 zoom,Zoom
 zotero,Zotero
