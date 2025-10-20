@@ -200,6 +200,7 @@ brew install --cask qgis
 # brew install --cask rstudio
 # brew install --cask scribus
 brew install --cask skype
+brew install --cask smoothcsv
 # brew install --cask telegram
 brew install --cask the-unarchiver
 brew install --cask todoist
