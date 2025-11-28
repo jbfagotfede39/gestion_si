@@ -48,10 +48,12 @@ choco list -l
 choco install vnc-connect -y
 choco install anydesk teamviewer zoom -y
 choco install firefox googlechrome -y
+choco install bitwarden -y
 choco install libreoffice -y
 choco install nextcloud-client -y
+choco install openvpn-connect -y
 choco install dbeaver notepadplusplus.install qgis-ltr tightvnc -y
-choco install thunderbird --params "/l=fr-FR /NoAutoUpdate"
+choco install thunderbird --params "/l=fr-FR /NoAutoUpdate" -y
 choco install vlc.install -y
 ```
 
