@@ -45,6 +45,7 @@ choco list -l
 
 ## Liste générale de paquets
 ```shell
+choco install vnc-connect -y
 choco install anydesk teamviewer zoom -y
 choco install firefox googlechrome -y
 choco install libreoffice -y
