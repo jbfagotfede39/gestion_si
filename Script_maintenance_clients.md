@@ -51,6 +51,7 @@ choco install firefox googlechrome -y
 choco install libreoffice -y
 choco install nextcloud-client -y
 choco install dbeaver notepadplusplus.install qgis-ltr tightvnc -y
+choco install thunderbird --params "/l=fr-FR /NoAutoUpdate"
 choco install vlc.install -y
 ```
 
