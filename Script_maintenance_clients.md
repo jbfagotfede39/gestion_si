@@ -238,6 +238,11 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 softwareupdate -l
 ```
 
+- Historique de mises à jour :
+```shell
+softwareupdate --history
+```
+
 - Installer une mise à jour (le ` -v` permet d'avoir des détails au fil de l'avancement) :
 ```shell
 softwareupdate  -v --install 'macOS High Sierra 10.13.3 Supplemental Update-'
